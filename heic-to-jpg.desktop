@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/heif;image/webp;
+Actions=convertToJpg;
+X-KDE-Priority=TopLevel
+
+[Desktop Action convertToJpg]
+Name=Convert to JPG
+Icon=image-jpeg
+Exec=heic-to-jpg %F
